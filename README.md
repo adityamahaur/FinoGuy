@@ -1,7 +1,5 @@
-# Plutocracy
+# FinoGuy
 #### Personal Finance Management System
-
-##### Submission project for Technohack Hackathon 2021 under the Spoon theme Personal Finance Management System.
 
 <center>
 	<a target='_blank' href='https://plutocracy.herokuapp.com/plutocracy/swagger-ui.html'>CLICK HERE TO VIEW API DOCS (Deployed Swagger-UI)</a>
@@ -58,12 +56,12 @@ Recommended way is to use [sdkman](https://sdkman.io/) for installing both maven
 Create postgres user (superuser) with name and password as plutocracy
 
 ```
-CREATE USER plutocracy WITH PASSWORD 'plutocracy' SUPERUSER;
+CREATE USER FinoGuy WITH PASSWORD 'FinoGuy' SUPERUSER;
 ```
-Create Database with name 'plutocracy' and assign the above created user to the database with preferable CLI or GUI tool
+Create Database with name 'FinoGuy' and assign the above created user to the database with preferable CLI or GUI tool
 
 ```
-create database plutocracy;
+create database FinoGuy;
 ```
 
 ```
@@ -95,7 +93,7 @@ The Default port is 9090 and base-url is set to /plutocracy (both can be changed
 Go to the below URI to view Swagger-UI (API-docs)
 
 ```
-http://localhost:9090/plutocracy/swagger-ui.html
+http://localhost:9090/FinoGuy/swagger-ui.html
 ```
 
 ---
@@ -136,7 +134,7 @@ sudo docker-compose stop
 Go to the below URI to view Swagger-UI (API-docs)
 
 ```
-http://localhost:9090/plutocracy/swagger-ui.html
+http://localhost:9090/FinoGuy/swagger-ui.html
 ```
 
 ## Quick Guide To Use Swagger-UI
